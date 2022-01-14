@@ -1,0 +1,44 @@
+/* main product css  start */
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+.main_Product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.product_Details{
+    
+    width: 582px;
+    height: 270px;
+    margin: 10px;
+    line-height: 2em;
+    padding: 10px;
+}
+.main_Camera{
+    width: 440px;
+    height: 414px;
+  
+    border-radius: 5px solid black;
+}
+.preoder_now{
+    background-color: #fa5592;
+    border-radius: 5px solid red;
+}
+ .btn{
+     width: 196px;
+     height: 44px;
+     background-color: #f15d94;
+     border-radius: 5px solid red;
+     padding: 5px;
+     text-decoration: none;
+
+ }
+ .right_Icon{
+     width: 30px;
+     height: 30px;
+     margin-top: 10px;
+ }
