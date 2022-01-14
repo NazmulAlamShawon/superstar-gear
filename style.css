@@ -1,8 +1,9 @@
+/* css font import link  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
 /* main product css  start */
 main{
-    display: flex;
-    justify-content: center;
-    
+    margin: auto;
 }
 .main_Product{
     display: flex;
@@ -17,6 +18,9 @@ main{
     margin: 10px;
     line-height: 2em;
     padding: 10px;
+}
+h1{
+    font-family: Poppins;
 }
 .main_Camera{
     width: 440px;
@@ -42,3 +46,38 @@ main{
      height: 30px;
      margin-top: 10px;
  }
+
+  /* company logo css  */
+  .wrapper{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border:1px solid darkorange;
+      width:1110px;
+      height: 110px;
+      margin: auto;
+      margin-top: 100px;
+
+  }
+
+  /* product item and popular collection  */
+  .populer-item{
+      margin-top: 100px;
+  }
+.product-item{
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #2196F3;
+    padding: 10px;
+}
+.product-card{
+    background-color: darkgray;
+    border: 1px solid red;
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
