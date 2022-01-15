@@ -227,7 +227,7 @@ footer{
     }
 }
 /* tablet device media quries start */
-@media only screen and (max-width:576px){
+/* @media only screen and (max-width:576px){
 
     .top-mainproduct{
         width: 100%;
@@ -240,7 +240,7 @@ footer{
 }
 
  /* product item media scree  */
-
+/* 
 @media only screen and ( min-width:577px) and (max-width:768px){
 
 
@@ -257,4 +257,4 @@ footer{
         
         grid-template-columns: repeat(1, 2fr);
     }
-}
+} */ 
