@@ -3,13 +3,30 @@
 
 /* header start  */
 header{
-    width: 100%;
-    height: auto;
-    color: rgb(29, 11, 11);
-    padding: 10px;
-    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    }
+.brand_title{
+    cursor: pointer;
+    margin-right: auto;
 }
-
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: black;
+}
+.nav_links li a:hover{
+    color: darkgray;
+}
 
 /* main product css  start */
 
@@ -200,7 +217,7 @@ footer{
     .top-mainproduct{
         width: 100%;
     }
-    .main_Product, .feature-details, .products-item{
+    .main_Product, .feature-details, .products-item, nav_links{
         
         grid-template-columns: repeat(1, 1fr);
         flex-direction: column;
