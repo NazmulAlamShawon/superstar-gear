@@ -1,11 +1,20 @@
 /* css font import link  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
 
-/* main product css  start */
-main{
-    margin: auto;
-    justify-content: center;
+/* header start  */
+header{
+    width: 100%;
+    height: auto;
+    color: rgb(29, 11, 11);
+    padding: 10px;
     
+}
+
+
+/* main product css  start */
+
+main{
+    margin-top: 100px;    
 }
 .main_Product{
     display: flex;
@@ -23,6 +32,10 @@ main{
 }
 h1{
     font-family: Poppins;
+}
+.font-big{
+    font-size: 3.1em;
+    line-height: 1.3em;
 }
 .main_Camera{
     width: 440px;
@@ -52,8 +65,6 @@ h1{
      margin-top: 10px;
  }
 
- /* main section css media queries start */
-
 
 
   /* company logo css  */
@@ -72,51 +83,49 @@ h1{
   /* product item and popular collection  */
   .product-list{
       margin-top: 100px;
-      padding: 10px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
       font-family: Poppins;
   }
-.products{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    border: 1px solid black;
-    margin: auto;
-    padding: 10px;
-    margin-left: auto;
-}
-.product-info{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
    
-}
-.product-headeing{
-    margin-top: 16px;
-}
+  .products-item{
+      display: grid;
+      grid-template-columns: repeat(3,1fr) ;
+      grid-gap: 30px;
+  }
 
-.product-details{
-    width: 329px;
-    height: 476px;
-    background-color: rgba(99, 86, 86, 0.979);
-    display: grid;
-    grid-template-columns: repeat (1,1fr);
-    
+  .product-details .product-item .products-image img{
+      width: 330px;
+      height: 256px;
+  }
+.font-small{
+    font-size: 1.5em;
+}
+.font-medium{
+    font-size: 1.70em;
+}
+.product-title{
+    margin-top: 16x;
     
 }
-.products-image{
-    width: 300px;
-    height: 256px;
-    padding: 15px;;
-    
-
+.fa-star.filled{
+    color: orange;
 }
-
+.fa-star{
+    font-size: 16px;
+}
+.ratting-product{
+    display: flex;
+    align-items: center;
+}
+.star-rating{
+    margin-right: 8px;
+}
+.para-clr{
+    color: #5E6366;
+}
 /* feature  details star start */
 .feature-especial{
      margin-top: 100px;
+     
 
 }
 .feature-details{
