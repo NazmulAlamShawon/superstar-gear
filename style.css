@@ -190,3 +190,39 @@ footer{
 
 .social:hover {opacity: 1}
 
+/* media queries start   */
+
+/* mobile device   */
+ /* top main product media scren start  */
+@media only screen and (max-width:576px){
+
+    .top-mainproduct{
+        width: 100%;
+    }
+    .main_Product, .feature-details{
+        
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+}
+
+ /* product item media scree  */
+
+@media only screen and (max-width:576px){
+
+
+    .products-item{
+        
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (max-width:576px){
+
+
+    .footer-box{
+        
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
