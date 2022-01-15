@@ -119,6 +119,9 @@ h1{
       width: 330px;
       height: 256px;
   }
+  .popular-title{
+      text-align: center;
+  }
 .font-small{
     font-size: 1.5em;
 }
